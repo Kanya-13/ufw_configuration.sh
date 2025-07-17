@@ -2,12 +2,12 @@
 
 This project automates a minimal firewall setup for Ubuntu using UFW. It allows SSH access while blocking HTTP access.
 
-## 🧰 Files Included
+Files Included
 
 - `ufw_configuration.sh`: Shell script to configure the firewall.
 - `ufw-status.txt`: Screenshot-proof of firewall status after setup.
 
-## ✔️ What It Does
+ ✔️ What It Does
 
 1. Updates package list and installs UFW.
 2. Sets default policies: deny incoming, allow outgoing.
@@ -16,7 +16,7 @@ This project automates a minimal firewall setup for Ubuntu using UFW. It allows 
 5. Enables UFW.
 6. Saves current firewall status to `ufw-status.txt`.
 
-## ▶️ Usage
+Usage
 
 ```bash
 chmod +x ufw_configuration.sh
